@@ -4,10 +4,14 @@ body{
 
 #content{
     text-align: center;
-    background-image: url(https://e0.pxfuel.com/wallpapers/407/899/desktop-wallpaper-css-patterns-background-pink-pink-cool-aesthetic.jpg);
+    background-repeat: repeat-y;
+    border-radius: 10px;
+    background-color: rgb(224, 126, 203);
+
 }
 
 #card{
-    box-shadow: 10px 5px 5px rgb(0,0,0);
+    box-shadow: 10px 15px 5px rgb(5, 5, 5);
+    background-color: rgb(126, 12, 107);
 }
 
