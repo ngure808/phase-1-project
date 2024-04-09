@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+#content{
+    text-align: center;
+    background-image: url(https://e0.pxfuel.com/wallpapers/407/899/desktop-wallpaper-css-patterns-background-pink-pink-cool-aesthetic.jpg);
+}
+
+#card{
+        /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: black; */
+    box-shadow: 10px 5px 5px rgb(0,0,0);
+}
+
