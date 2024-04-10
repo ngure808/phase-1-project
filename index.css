@@ -20,5 +20,9 @@ body{
     justify-content: center; 
     background-color: rgb(126, 12, 107);
     border-radius: 20px;
- }
+}
+
+#card{
+    box-shadow: 5px 5px 5px;
+}
 
