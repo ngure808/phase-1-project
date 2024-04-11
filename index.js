@@ -1,16 +1,21 @@
 document.addEventListener("DOMContentLoaded", () => {
     let bronzer = document.getElementById("bronzer")
     let  blush = document.getElementById("blush")
-    let lipliner = document.getElementById("lipliner")
+    let lipliner = document.getElementById("lip_liner")
     let foundation = document.getElementById("foundation")
     let eyeshadow= document.getElementById("eyeshadow")
     let eyeliner = document.getElementById("eyeliner")
-    let nailpolish = document.getElementById("nailpolish")
+    let nailpolish = document.getElementById("nail_polish")
     let lipstick = document.getElementById("lipstick")
     let mascara = document.getElementById("mascara")
     let div = document.getElementById("section")
     let localURL = "http://makeup-api.herokuapp.com/api/v1/products.json?brand=maybelline"
-    // let button = document.getElementsByTagName("button")
+    let reload = document.getElementById("reload")
+    reload.addEventListener("click",() => {
+        window.location.reload()
+    })
+
+
 
     function mainSpace(){
         fetch(localURL)
@@ -77,6 +82,12 @@ document.addEventListener("DOMContentLoaded", () => {
             para.appendChild(price)
             btn.innerText = "Order"
             para.appendChild(btn)   
+
+            btn.addEventListener("click", (e) => {
+                e.preventDefault()
+                prompt("Enter amount you wish to Buy: ")
+                alert("Thanks for shopping")
+            })
         }
     }
 
@@ -103,6 +114,12 @@ document.addEventListener("DOMContentLoaded", () => {
             para.appendChild(price)
             btn.innerText = "Order"
             para.appendChild(btn)   
+
+            btn.addEventListener("click", (e) => {
+                e.preventDefault()
+                prompt("Enter amount you wish to Buy: ")
+                alert("Thanks for shopping")
+            })
         }
 
     }
@@ -129,6 +146,12 @@ document.addEventListener("DOMContentLoaded", () => {
             para.appendChild(price)
             btn.innerText = "Order"
             para.appendChild(btn)   
+
+            btn.addEventListener("click", (e) => {
+                e.preventDefault()
+                prompt("Enter amount you wish to Buy: ")
+                alert("Thanks for shopping")
+            })
         }
 
     }
@@ -156,6 +179,12 @@ document.addEventListener("DOMContentLoaded", () => {
             para.appendChild(price)
             btn.innerText = "Order"
             para.appendChild(btn)   
+
+            btn.addEventListener("click", (e) => {
+                e.preventDefault()
+                prompt("Enter amount you wish to Buy: ")
+                alert("Thanks for shopping")
+            })
         }
 
     }
@@ -183,6 +212,12 @@ document.addEventListener("DOMContentLoaded", () => {
             para.appendChild(price)
             btn.innerText = "Order"
             para.appendChild(btn)   
+
+            btn.addEventListener("click", (e) => {
+                e.preventDefault()
+                prompt("Enter amount you wish to Buy: ")
+                alert("Thanks for shopping")
+            })
         }
 
     }
@@ -210,6 +245,12 @@ document.addEventListener("DOMContentLoaded", () => {
             para.appendChild(price)
             btn.innerText = "Order"
             para.appendChild(btn)   
+
+            btn.addEventListener("click", (e) => {
+                e.preventDefault()
+                prompt("Enter amount you wish to Buy: ")
+                alert("Thanks for shopping")
+            })
         }
 
     }
@@ -237,6 +278,12 @@ document.addEventListener("DOMContentLoaded", () => {
             para.appendChild(price)
             btn.innerText = "Order"
             para.appendChild(btn)   
+
+            btn.addEventListener("click", (e) => {
+                e.preventDefault()
+                prompt("Enter amount you wish to Buy: ")
+                alert("Thanks for shopping")
+            })
         }
 
     }
@@ -264,6 +311,12 @@ document.addEventListener("DOMContentLoaded", () => {
             para.appendChild(price)
             btn.innerText = "Order"
             para.appendChild(btn)   
+
+            btn.addEventListener("click", (e) => {
+                e.preventDefault()
+                prompt("Enter amount you wish to Buy: ")
+                alert("Thanks for shopping")
+            })
         }
 
     }
@@ -290,11 +343,16 @@ document.addEventListener("DOMContentLoaded", () => {
             price.innerText = `Price = ${value.price} $`
             para.appendChild(price)
             btn.innerText = "Order"
-            para.appendChild(btn)   
+            para.appendChild(btn) 
+            
+            btn.addEventListener("click", (e) => {
+                e.preventDefault()
+                prompt("Enter amount you wish to Buy: ")
+                alert("Thanks for shopping")
+            })
         }
 
     }
-
 
 
 })
