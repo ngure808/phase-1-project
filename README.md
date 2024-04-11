@@ -16,9 +16,9 @@
      - The div is first emptied then a new fetch is caled this time with the category as its second argument.
 
 ## Technologies Used
-HTML
-CSS
-JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ### License
 The content of this site is under the MIT License
