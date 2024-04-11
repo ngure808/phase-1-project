@@ -54,7 +54,7 @@ button{
     height: fit-content;
     border-radius: 10px;
     background-color: ghostwhite;
-
+    font-size: large;
 }
 
 #summary{
@@ -75,3 +75,35 @@ a{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.topnav{
+    background-color: rgb(228, 185, 241);
+    text-align: center;
+    border-radius: 10px;
+} 
+
+.pagename{
+    color: rgb(78, 5, 100); 
+    /* font-size: large; */
+     padding-bottom: 10px;
+    padding-left: 3px;
+}
+h1.pagename{
+    text-decoration: underline;
+}
+
+.item{
+    padding-left: 45%;
+    margin-top: 10px;
+    color:rgb(181, 157, 224);
+    text-decoration: underline;
+}
+
+#disclaimer{
+    background-color: black;
+    color: beige;
+    margin-top: 50%;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-left: 20%;
+} 
