@@ -1,24 +1,27 @@
 body{
-    background-color: black;
+    background-color: rgb(9, 0, 10);
+    background-position: top;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-image:url("./images/rose-flower-digital-1920x1200-14751.jpg")
 }
 
 #content{
     text-align: center;
     border-radius: 10px;
     box-shadow: 30px 30px 30px rgb(5, 5, 5);
-    background-color: rgb(224, 126, 203);
+    background-color: rgb(212, 83, 230);
     height:fit-content;
     width: fit-content;
     margin-left: 50%;
     margin-right: 50%;
-    padding-right: 45px;
+    padding-right: 5px;
 }
 
 #main{ 
     display: flex;
     justify-content: center; 
     flex-wrap: wrap;
-    background-color: rgb(126, 12, 107);
     border-radius: 20px;
 }
 
@@ -29,8 +32,6 @@ body{
     flex-direction: row-reverse;
     text-align: center;
     border-radius: 10px;
-    /* box-shadow: 30px 30px 30px rgb(5, 5, 5); */
-    background-color: rgb(224, 126, 203);
     height:fit-content;
     width: fit-content;
     margin-left: 400px;
@@ -51,11 +52,26 @@ body{
 button{
     width: fit-content;
     height: fit-content;
+    border-radius: 10px;
+    background-color: ghostwhite;
 
 }
 
 #summary{
     height: fit-content;
-    width: 400px;
+    width: 450px;
 }
 
+#reload{
+    background-color: black;
+    margin-left: 40px;
+    color:ghostwhite;
+}
+a{
+    background-color: rgb(12, 12, 12);
+    color: ghostwhite;
+    margin-left: 50%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
