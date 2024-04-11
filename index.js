@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     mainSpace();
 
+    // updates the dom depending on the button that has been clicked
     function preUI(value, productType) {
         if (value.product_type === productType) {
             const title = document.createElement("h3");
@@ -45,9 +46,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
             btn.addEventListener("click", () => {
                 const amount = prompt("Enter amount you wish to buy:");
-                if (amount !== null) {
+                if (parseInt(amount) > 0) {
                     alert("Thanks for shopping");
+                }else {
+                    alert("Invalid input")
                 }
+            });
+
+             image.addEventListener("mouseenter", () => {
+                // Change border color, increase size, etc.
+                image.style.border = "5px solid rgb(78,5,100)";
+                image.style.boxShadow = "10px 10px 10px rgba(0, 0, 0, 0.5)"
+            });
+
+            image.addEventListener("mouseleave", () => {
+                // Revert back to original styling
+                image.style.border = "none";
+                image.style.boxShadow = "none";
             });
         }
     }
